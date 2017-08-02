@@ -10,7 +10,8 @@ There is only one function **timestamp()** without any argument that returns
 a character string. This string is : the count of seconds (since 00:00:00 UTC
 Thursday 1, January 1970), a dot as separator and 6 digits for microseconds.
 
-Example, this short program: 
+Example, this short program, compiled with gfortran compiler at command line
+(`gfortran time_mod.f08 gettimeofday_smod.f08 test.f08`):
 
 ```fortran
 Program test
@@ -18,8 +19,8 @@ Program test
    print*,timestamp()
 end program test
 ```
-
 gives something like `1501688363.955201` that means, in human language:
+
 ```
 2017-08-02T15:39:23+00:00 (in ISO 8601)
 Wed, 02 Aug 2017 15:39:23 +0000 (in RFC 822, 1036, 1123, 2822)
