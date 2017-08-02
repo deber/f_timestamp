@@ -42,4 +42,4 @@ submodule(time) gettimeofday
       integer(kind=4)::f_gettimeofday 
       f_gettimeofday=gettimeofday(tv,tz) 
    end function f_gettimeofday 
- end submodule gettimeofday  
+end submodule gettimeofday  
