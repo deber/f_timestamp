@@ -19,8 +19,15 @@ Program test
    print*,timestamp()
 end program test
 ```
-gives something like `1501688363.955201` that means, in human language:
+gives something like:
 
+```
+$ ./a.out
+ 1501688363.955201
+$ 
+```
+
+`"1501688363.955201"` means, in human language:
 ```
 2017-08-02T15:39:23+00:00 (in ISO 8601)
 Wed, 02 Aug 2017 15:39:23 +0000 (in RFC 822, 1036, 1123, 2822)
