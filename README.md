@@ -1,7 +1,7 @@
 # f_timestamp
 
 This a Fortran module to get UNIX timestamp from the standard C library
-function _gettimeofday()_ using iso_c_binding.
+function ```gettimeofday()``` using iso_c_binding.
 
 This is an early release and it is tested only under Linux x86_64. It must
 not be used under 32 bits systems.
